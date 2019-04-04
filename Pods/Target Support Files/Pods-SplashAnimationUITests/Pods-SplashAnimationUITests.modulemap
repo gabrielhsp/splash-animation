@@ -1,0 +1,6 @@
+framework module Pods_SplashAnimationUITests {
+  umbrella header "Pods-SplashAnimationUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
