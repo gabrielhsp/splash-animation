@@ -16,6 +16,8 @@
 		B8ACA00E2256922700A935F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8ACA00C2256922700A935F7 /* LaunchScreen.storyboard */; };
 		B8ACA0192256922700A935F7 /* SplashAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ACA0182256922700A935F7 /* SplashAnimationTests.swift */; };
 		B8ACA0242256922700A935F7 /* SplashAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ACA0232256922700A935F7 /* SplashAnimationUITests.swift */; };
+		B8ACA0322256950B00A935F7 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ACA0312256950B00A935F7 /* SplashViewController.swift */; };
+		B8ACA0342256957100A935F7 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8ACA0332256957100A935F7 /* Media.xcassets */; };
 		FEEFE57A7D1C9F02C823D885 /* Pods_SplashAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983B43CD06CB372350ACED77 /* Pods_SplashAnimation.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +58,8 @@
 		B8ACA01F2256922700A935F7 /* SplashAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplashAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8ACA0232256922700A935F7 /* SplashAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashAnimationUITests.swift; sourceTree = "<group>"; };
 		B8ACA0252256922700A935F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8ACA0312256950B00A935F7 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		B8ACA0332256957100A935F7 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		CEC063584DE1DE15EB356C0D /* Pods-SplashAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplashAnimation.debug.xcconfig"; path = "Target Support Files/Pods-SplashAnimation/Pods-SplashAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 		CF15C577DA50D36335A66EF8 /* Pods-SplashAnimationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplashAnimationTests.release.xcconfig"; path = "Target Support Files/Pods-SplashAnimationTests/Pods-SplashAnimationTests.release.xcconfig"; sourceTree = "<group>"; };
 		E647B1AC9177A071117BA74D /* Pods_SplashAnimationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplashAnimationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,7 +103,6 @@
 				98B2CA61FD17E64B0E6AFABB /* Pods-SplashAnimationUITests.debug.xcconfig */,
 				32F2CE2F4857836CC34A6177 /* Pods-SplashAnimationUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -130,10 +133,12 @@
 			children = (
 				B8ACA0032256922600A935F7 /* AppDelegate.swift */,
 				B8ACA0052256922600A935F7 /* ViewController.swift */,
+				B8ACA0312256950B00A935F7 /* SplashViewController.swift */,
 				B8ACA0072256922600A935F7 /* Main.storyboard */,
 				B8ACA00A2256922700A935F7 /* Assets.xcassets */,
 				B8ACA00C2256922700A935F7 /* LaunchScreen.storyboard */,
 				B8ACA00F2256922700A935F7 /* Info.plist */,
+				B8ACA0332256957100A935F7 /* Media.xcassets */,
 			);
 			path = SplashAnimation;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 			files = (
 				B8ACA00E2256922700A935F7 /* LaunchScreen.storyboard in Resources */,
 				B8ACA00B2256922700A935F7 /* Assets.xcassets in Resources */,
+				B8ACA0342256957100A935F7 /* Media.xcassets in Resources */,
 				B8ACA0092256922600A935F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,6 +398,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8ACA0322256950B00A935F7 /* SplashViewController.swift in Sources */,
 				B8ACA0062256922600A935F7 /* ViewController.swift in Sources */,
 				B8ACA0042256922600A935F7 /* AppDelegate.swift in Sources */,
 			);
