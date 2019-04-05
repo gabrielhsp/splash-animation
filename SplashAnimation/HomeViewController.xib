@@ -27,29 +27,8 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xtb-OA-Wls">
-                    <rect key="frame" x="0.0" y="20" width="375" height="50"/>
-                    <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zp3-Jl-weQ">
-                            <rect key="frame" x="166" y="15" width="46" height="21"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                    </subviews>
-                    <color key="backgroundColor" red="0.93165053929999997" green="0.63582854629999996" blue="0.3640038478" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="50" id="L21-ZY-yTQ"/>
-                    </constraints>
-                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <constraints>
-                <constraint firstItem="Xtb-OA-Wls" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="0CD-XA-JZY"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Xtb-OA-Wls" secondAttribute="trailing" id="2QP-0h-Qgg"/>
-                <constraint firstItem="Xtb-OA-Wls" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Mzw-6H-H69"/>
-            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
         </view>
     </objects>
